@@ -34,3 +34,4 @@ public final class Catalog {
                 .filter(book -> book.title().toLowerCase(Locale.ROOT).contains(query.toLowerCase(Locale.ROOT)))
                 .toList();
     }
+}
